@@ -57,7 +57,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    background: linear-gradient(63.13deg, #430c3a 51.04%, #7c184f 51.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -158,7 +158,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #352728;
+        background: #7c184f;
         height: auto;
     }
 
