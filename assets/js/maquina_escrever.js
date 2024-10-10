@@ -10,11 +10,11 @@ function cliqueVer (e) {
         if (elemento.classList.contains('escondido')) {
             elemento.classList.remove('escondido');
             elemento.classList.add('visivel');
-            botaoVerMais.innerHTML = 'Ver menos';
+            botaoVerMais.innerHTML = 'View More';
         } else {
             elemento.classList.add('escondido');
             elemento.classList.remove('visivel');
-            botaoVerMais.innerHTML = 'Ver mais';
+            botaoVerMais.innerHTML = 'View Less';
         }
     } )
 }

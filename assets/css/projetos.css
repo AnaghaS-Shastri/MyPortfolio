@@ -108,11 +108,61 @@ button:hover {
   .projetos-itens {
       flex-direction: column;
   }
-
-}
-@media (max-width:950px) {
+  @media (max-width:950px) {
     .pro {
         max-width: 300px;
     }
+}
 
+.project-img {
+    width: 500%; /* Ensure image takes up the full width of the container */
+    height: auto;
+    object-fit: fill; /* Ensure the image covers the div without distortion */
+}
+
+.pro {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.breve {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.escondido {
+    display: none; /* Hide the projects marked as 'escondido' */
+}
+
+.github-link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.github-link button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.github-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.github-link a:hover {
+    text-decoration: underline;
 }
